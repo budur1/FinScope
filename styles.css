@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ header {
 }
 
 .logo-img {
-    width: 200px; /* Adjust logo size */
+    width: 200px; 
 }
 
 nav {
@@ -42,7 +42,7 @@ nav {
     justify-content: flex-end;
 }
 
-/* Button Styles */
+
 .btn {
     padding: 12px 24px;
     font-size: 18px;
@@ -56,7 +56,7 @@ nav {
 
 .btn:first-child {
     background-color: transparent;
-    border: 2px solid #C2B8FF; /* Light purple border */
+    border: 2px solid #C2B8FF; 
     color: #C2B8FF;
 }
 
@@ -70,32 +70,32 @@ nav {
     opacity: 0.8;
 }
 
-/* Main Section */
+
 .main-section {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 50px 20px;
     background-color: #121212;
-    position: relative; /* Added to help align the content */
+    position: relative; 
 }
 
-/* Stars Image */
+
 .stars-img {
-    width: 500px; /* Larger stars image */
+    width: 500px; 
     height: auto;
-    position: absolute; /* Absolutely positioned to fix placement */
-    left: 20px; /* Adjusted to move the stars to the left */
-    top: 50%; /* Vertically center the image */
-    transform: translateY(-50%); /* Adjust for exact centering */
+    position: absolute; 
+    left: 20px; 
+    top: 50%; 
+    transform: translateY(-50%); 
 }
 
-/* Text Content */
+
 .text-content {
     color: white;
     font-family: 'Tajawal', sans-serif;
     text-align: right;
-    margin-right: 230px; /* Offset from the left due to image */
+    margin-right: 230px; 
     max-width: 500px;
 }
 
@@ -109,7 +109,7 @@ nav {
     margin-bottom: 20px;
 }
 
-/* Button */
+
 .btn-main {
     padding: 12px 24px;
     background-color: white;
@@ -122,7 +122,7 @@ nav {
     text-align: center;
     display: inline-block;
     cursor: pointer;
-    margin-top: 20px; /* Space between text and button */
+    margin-top: 20px; 
 }
 
 .btn-main:hover {
@@ -133,10 +133,10 @@ nav {
 
 .features-section {
     padding: 50px 250px 50px 250px;
-    background: linear-gradient(to bottom, #121212 0%, #211931 100%); /* Gradient effect */
+    background: linear-gradient(to bottom, #121212 0%, #211931 100%); 
     border-radius: 10px;
     color: white;
-    text-align: right; /* Ensures right alignment for RTL text */
+    text-align: right; 
  
 }
 .features-section h2 {
@@ -147,10 +147,9 @@ nav {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 30px; /* Space between items */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
 }
-
 .feature-item {
     display: flex;
     justify-content: center;
@@ -160,15 +159,15 @@ nav {
 
 .feature-btn {
     display: inline-flex;
-    height: 168px; /* Button height */
-    padding: 0px 58px 0px 60px; /* Adjusted padding */
+    height: 168px; 
+    padding: 0px 58px 0px 60px; 
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
     border-radius: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.10); /* Border */
-    background: rgba(255, 255, 255, 0.03); /* Semi-transparent background */
-    box-shadow: 0px 0px 0px 9px rgba(255, 255, 255, 0.03) inset; /* Inset box-shadow */
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.03); 
+    box-shadow: 0px 0px 0px 9px rgba(255, 255, 255, 0.03) inset; 
     color: #ffffff; 
     font-size: 18px;
     font-family: 'Tajawal', sans-serif;
@@ -180,44 +179,44 @@ nav {
 }
 
 .feature-btn:hover {
-    background-color: #C2B8FF; /* Hover background color */
-    color: white; /* White text color on hover */
-    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.2) inset; /* Enhanced shadow on hover */
+    background-color: #C2B8FF; 
+    color: white; 
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.2) inset; 
 }
 
-/* Quick Guide Section */
+
 .quick-guide-section {
     display: flex;
-    flex-direction: column; /* Change layout to column for text and video in different rows */
+    flex-direction: column; 
     justify-content: center;
-    align-items: flex-start; /* Align items to the start (left) */
+    align-items: flex-start; 
     padding: 50px 20px;
-    background-color: #121212; /* Same background as previous sections */
+    background-color: #121212; 
     border-radius: 10px;
 }
 
-/* Guide Text */
+
 .guide-text {
    padding:  50px 250px 50px 250px;
     color: white;
-    text-align: right; /* Align the text to the right */
-    width: 100%; /* Ensure it takes full width */
-    margin-bottom: 20px; /* Space between text and video */
+    text-align: right; 
+    width: 100%; 
+    margin-bottom: 20px; 
 }
 
 .guide-text h2 {
     font-size: 45px;
 }
 
-/* Video Container */
+
 .video-container {
     width: 100%;
     display: flex;
-    justify-content: center; /* Center the video horizontally */
+    justify-content: center; 
     align-items: center;
 }
 
-/* Video Box (White Box) */
+
 .video-box {
     width: 500px;
     height: 300px;
@@ -225,50 +224,48 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px; /* Rounded corners for the white box */
+    border-radius: 12px; 
     position: relative;
 }
 
-/* Play Button */
+
 .play-btn {
     width: 80px; 
     height: auto;
 }
-/* Team Section */
+
 .team-section {
     padding: 50px 20px;
     background-color: #121212;
     border-radius: 10px;
     display: flex;
-    flex-direction: column; /* Ensure layout is column-wise for the section */
-    align-items: center;     /* Center all items horizontally */
-    text-align: right;       /* Ensure all text is aligned to the right */
-    width: 100%;             /* Ensure the section takes up the full width */
+    flex-direction: column; 
+    align-items: center;     
+    text-align: right;       
+    width: 100%;             
 }
 
-/* Team Header */
 .team-header h2 {
     padding:  50px 250px 50px 250px;
     color: white;
     font-size: 45px;
-    text-align: right; /* Align the text to the right */
-    width: 100%; /* Ensure it takes full width */
-    margin-bottom: 20px; /* Space between text and video */
+    text-align: right; 
+    width: 100%; 
+    margin-bottom: 20px; 
 
 }
 
-/* Team Grid */
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for team members */
-    gap: 30px; /* Space between items */
-    justify-items: center; /* Center the grid items horizontally */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    justify-items: center; 
     width: 80%;
 }
 
-/* Team Member */
+
 .team-member {
-    text-align: center;  /* Center the text for each member */
+    text-align: center;  
     color: white;
     display: flex;
     flex-direction: column;
@@ -276,29 +273,29 @@ nav {
     align-items: center;
 }
 
-/* Circle Image (Placeholder for team member image) */
+
 .circle-img {
-    width: 100px; /* Circle size */
+    width: 100px; 
     height: 100px;
-    background-color: #FFF; /* Placeholder color */
-    border-radius: 50%; /* Make the image circular */
-    overflow: hidden;  /* Ensure the image fits inside the circle */
+    background-color: #FFF; 
+    border-radius: 50%; 
+    overflow: hidden;  
     margin-bottom: 10px;
 }
 
-/* Image inside the circle */
+
 .circle-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the image covers the circle while maintaining aspect ratio */
+    object-fit: cover; 
 }
 footer {
     background-color: #121212;
     color: white;
     padding: 50px 20px;
-    text-align: right; /* Ensures right alignment for RTL text */
+    text-align: right;
     border-top: 1px solid #C2B8FF;
-    margin-top: 50px; /* Space between content above */
+    margin-top: 50px; 
 }
 
 .footer-content {
