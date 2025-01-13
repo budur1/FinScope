@@ -143,9 +143,9 @@ body {
 }
 
 .sabic-link {
-        color: #4582f3; /* Change the color to your preference (e.g., Slate Blue) */
+        color: #4582f3; 
         text-decoration: none;
     }
     .sabic-link:hover {
-        color: #483D8B; /* Darker shade for hover */
+        color: #483D8B; 
     }
