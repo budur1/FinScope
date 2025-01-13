@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FinScope AI Chatbot</title>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="chatbot.css">  <!-- Link to the new CSS file -->
+    </head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>كيف ممكن اساعدك اليوم؟</h2>
+        </div>
+        
+        <div class="chat-box" id="chat-box">
+            <!-- Chat messages will appear here -->
+        </div>
+        
+        <div class="suggested-questions">
+            <button class="suggestion-btn" onclick="sendMessage('مساعدة في اتخاذ القرارات')">مساعدة في اتخاذ القرارات</button>
+            <button class="suggestion-btn" onclick="sendMessage('كيف تحلل بياناتي؟')">كيف تحلل بياناتي؟</button>
+            <button class="suggestion-btn" onclick="sendMessage('ما هي ميزات هذه المنصة؟')">ما هي ميزات هذه المنصة؟</button>
+        </div>
+        
+        <div class="user-input">
+            <input type="text" id="user-input" placeholder="أكتب سؤالك هنا..." />
+            <button id="send-btn" onclick="sendUserMessage()">إرسال</button>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
